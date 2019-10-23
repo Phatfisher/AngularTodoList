@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TodosComponent } from './components/todos/todos.component';
 import { TodoItemComponent } from './components/todo-item/todo-item.component';
+import { HeaderComponent } from './components/layout/header/header.component';
 //import { TodoComponent } from './components/todos/todo.component';
 
 @NgModule({
@@ -13,6 +14,7 @@ import { TodoItemComponent } from './components/todo-item/todo-item.component';
     AppComponent,
     TodosComponent,
     TodoItemComponent,
+    HeaderComponent,
     //TodoComponent
   ],
   imports: [
